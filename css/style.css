@@ -1,0 +1,42 @@
+.html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+.container{
+background-color: aquamarine;
+}
+.section{
+background-color: chartreuse;
+}
+.section-title{
+    background-color: cornflowerblue;
+    margin-top: 0px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: rgba(173, 126, 6, 0.705);
+    color: lightcyan;
+    text-decoration: none;
+    border:orange 5px;
+    border-radius: 10px;
+}
+.btn:hover,
+.btn:focus
+{
+background-color: orange;
+border: peru;
+}
+.btn-icon{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: lawngreen;
+    vertical-align: middle;
+}
