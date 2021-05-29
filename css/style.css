@@ -7,8 +7,20 @@
     box-sizing: inherit;
 }
 
+h1,
+h2,
+h3,
+p,
+ul{
+  margin: 0;
+  list-style: none
+}
+ul{
+    padding: unset;
+}
 .container{
 background-color: aquamarine;
+border: 5px solid tomato;
 }
 .section{
 background-color: chartreuse;
