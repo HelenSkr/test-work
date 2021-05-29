@@ -19,8 +19,20 @@ ul{
     padding: unset;
 }
 .container{
-background-color: aquamarine;
+width: 1200px;
+background-color: rgb(23, 79, 201, 0.3);
 border: 5px solid tomato;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.wide-section{
+    width: 1200;
+    background-color: violet;
+    border: darkorchid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
 }
 .section{
 background-color: chartreuse;
@@ -29,7 +41,6 @@ background-color: chartreuse;
     background-color: cornflowerblue;
     margin-top: 0px;
 }
-
 .btn{
     display: inline-block;
     padding: 20px 40px;
