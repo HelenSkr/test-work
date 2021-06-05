@@ -18,6 +18,65 @@ ul{
 ul{
     padding: unset;
 }
+.box-container{
+display:flex;
+flex-wrap: wrap;
+width: 1700px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+margin-top: 50px;
+}
+.box{
+    width: 800px;
+    height: 400px;
+    outline: 2px solid rgb(13, 105, 141);
+    margin: 10px 10px 10px 10px;
+
+}
+.box:nth-child(1){
+background-color: skyblue;
+background-image: url(../imeges/earth.png);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+}
+.box:nth-child(2){
+    background-color: rgb(192, 31, 197);
+background-image: url(../imeges/earth.png);
+background-repeat: no-repeat;
+background-position: bottom 20px right 20px;
+}
+.box:nth-child(3){
+    background-color: rgb(81, 216, 115);
+    background-image: url(../imeges/earth.png);
+background-repeat: repeat-x;
+background-position: 50% 50%;
+background-size: 120px;
+}
+.box:nth-child(4){
+    background-color: rgb(152, 100, 201);
+    background-image: url(../imeges/earth.png), url(../imeges/astrolog.jpg);
+background-repeat: no-repeat;
+background-position: top right, center;
+background-size: 100px, cover;
+}
+.main-box{
+    height: 600px;
+    max-width: 1600;
+    outline: 1px dashed rebeccapurple;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, rgb(230, 137, 164,0.5), rgb(86, 240, 86,0.5)), url(../imeges/texture.jpg);
+    /*background-image: url(../imeges/texture.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
 .container{
 width: 1200px;
 background-color: rgb(23, 79, 201, 0.3);
